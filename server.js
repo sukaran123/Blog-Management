@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const Blog = require("./models/blog");
 mongoose
   .connect(
-    "mongodb://localhost:27017/blog"
+    "mongodb+srv://sukaransingh2003:vpLs7R67VGjRjvD6@cluster0.relweuh.mongodb.net/blog"
   )
   .then(() => {
     console.log("database connected");
